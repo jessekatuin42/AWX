@@ -1,0 +1,9 @@
+- name: Managed NLH-plesk VPS
+  hosts: apt
+  become: yes
+  roles:
+    #- update
+    #- vm
+    #- plesk
+    - nlhosting
+    #- redis
